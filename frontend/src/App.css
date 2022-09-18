@@ -1,0 +1,220 @@
+.bg{
+    background-image:url('./asset/images/bg5.jpg') ;
+    height: 500px;
+    width: 100%;
+    background-repeat:no-repeat;
+    
+}
+.footerbg{
+    background-color: #000;
+    height: auto;
+}
+.contact{
+    font-size: 18px;
+    padding-bottom: 7px;
+    font-weight: 700;
+    width: 150px;
+    border-bottom: 4px solid #f60;
+    color: #f60;
+    margin: 0 auto 20px;
+}
+.heading{
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.input1{
+    color: white;
+    background: #242424;
+    width: 100%;
+    line-height: 1.5;
+    height: 50px;
+    
+}
+textarea{
+    resize: none;
+}
+.btn{
+    border:4px solid #f60;
+    border-radius: 10px;
+}
+.img-fluid {
+    border-radius: 10px;
+}
+.heading2{
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+.paragrph1{
+    text-align: left;
+    padding: 13px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: grey;
+}
+.bgcolor{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+container{
+    padding: 1em 0;
+    float: left;
+    width: 50%;
+  }
+  @media screen and (max-width: 640px){
+    .container{
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 900px){
+    .container{
+      width: 33.33333%;
+    }
+  }
+  
+  .container .title{
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: rgba(0,0,0,0.9);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+  
+  
+  .fadeIn-left{
+    left: 20%;
+  }
+  
+ 
+  .heading5{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .heading6{
+    font-size: 12px;
+    color: #998e8e;
+    padding-top: 0;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  .para1team{
+    color: #998e8e;
+    font-size: 80%;
+    font-weight: 400;
+  }
+  .card1{
+    border-radius: 20px;
+  }
+  .card-title{
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 10px 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.aboutphara{
+    font-size: 15px;
+    padding: 7px;
+}
+.serviceh{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.card-text{
+    color: #998e8e;
+    font-size: 80%;
+    font-weight: 400;
+    text-align: left;
+}
+
+.subcribe{
+    background: linear-gradient(180deg,transparent,#000),url('./asset/images/bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+.subcribeh{font-size: 20px;
+    width: 120px;
+    border-bottom: 5px solid #fff;
+    padding-bottom: 7px;
+    font-weight: 700;
+
+}
+
+  
